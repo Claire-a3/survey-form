@@ -22,6 +22,7 @@
     font-style:bold;
     padding-top:80px;
     color:white;
+    text-shadow:2px 2px 8px black;
 }
 .prov{
     text-align:center;
@@ -34,18 +35,77 @@
     width:700px;
     height:100vh;
     margin:auto;
-    background-color:rgba(0,0,0,0.7);
-    padding-top:20px;
-    padding-left:50px;
+    background-color:rgba(0,0,0,0.8);
+    padding-top:50px;
     border:15px rgb(170, 21, 184);
     border-radius: 30px;
-}
-#name{
-    font-size:40px;
-    font-family:times new roman;
-    color:white;
     text-align:center;
 }
-input{
-    color:transparent;
+::placeholder{
+    font-size:25px;
+    opacity:0.4;    
+    text-align:center;
+}
+#name-label{
+    font-size:40px;
+    font-family:calibri;
+    color:black;    
+    border-radius:5px;
+    padding:-10px;
+}
+.nameinp{
+    width:550px;
+    height:40px;
+    font-size:30px;
+    color:white;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid #ff7200;
+    margin-bottom:20px;
+}
+.nameinp:focus{
+    outline:none;
+    opacity:0.8;
+}
+#email-label{
+    font-size:40px;
+    font-family:calibri;
+    text-align:center;
+    color:black;    
+    border-radius:5px;
+}
+.mailinp{
+    width:550px;
+    height:40px;
+    font-size:30px;
+    color:white;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid #ff7200;
+    margin-bottom:20px;
+}
+.mailinp:focus{
+    outline:none;    
+    opacity:0.8;
+}
+#number-label{
+    font-size:40px;
+    font-family:calibri;
+    text-align:center;
+    color:black;    
+    border-radius:5px;
+}
+.numinp{
+    width:550px;
+    height:40px;
+    font-size:30px;
+    color:white;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px solid #ff7200;
+    margin-bottom:20px;
+}
+.numinp:focus{
+    outline:none;    
+    opacity:0.8;
 }

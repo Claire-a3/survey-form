@@ -3,8 +3,6 @@
     padding:0;
 }
 .body{
-    background-color:blueviolet;
-    background-position:center;
 }
 .navbar{
     width:1200px;
@@ -16,5 +14,38 @@
     width:800px;    
     height:100vh;
     margin:auto;
-    background-color:deeppink;
+}
+.header{
+    text-align:center;
+    font-size:58px;
+    font-family:arial;
+    font-style:bold;
+    padding-top:80px;
+    color:white;
+}
+.prov{
+    text-align:center;
+    font-size:20px;
+    font-style:italic;
+    color:white;
+    padding-bottom: 30px;
+}
+#survey-form{
+    width:700px;
+    height:100vh;
+    margin:auto;
+    background-color:rgba(0,0,0,0.7);
+    padding-top:20px;
+    padding-left:50px;
+    border:15px rgb(170, 21, 184);
+    border-radius: 30px;
+}
+#name{
+    font-size:40px;
+    font-family:times new roman;
+    color:white;
+    text-align:center;
+}
+input{
+    color:transparent;
 }

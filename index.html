@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey form</title>
 </head>
 <body>
-    <h1>Survey form</h1>
+    <div class="navbar">
+        <div class="main">
+    <h1 class="header">Survey form</h1>
     <p>This is a website</p>
-    <form id="survey-form" action="form page"></form>
+    <form id="survey-form" action="form page">
     <div>
         <label id="name" for="name">Name</label>
         
@@ -34,10 +37,31 @@
          <option>Female</option>
          
       </select>
+    </div>
+    <div>
+        <label name="literacy">Literacy</label><br>
+        <label name="literate" for="literate">Literate</label>
+        <input type="radio" name="literate">
+        <label name="literate" for="illiterate">Literate</label>
+        <input type="radio" name="illiterate">
+    </div>
+    <div>
+        <label name="codelang" for="codelang">Coding Language:</label><br>
+        <label name="java" for="java">Java</label><input type="checkbox" value="java" name="Java"><br>
+        <label name="python" for="python">Python</label><input type="checkbox" value="python" name="Python"><br>
+        <label name="C#" for="C#">Python</label><input type="checkbox" value="C#" name="C#"><br>
+        <label name="javascript" for="javascript">Javascript</label><input type="checkbox" value="javascript" name="Javascript">
 
     </div>
-
+    <div>
+        <input type="textarea" name="comment">
+    </div>
+    <div>
+        <input type="submit" id="submite">
+    </div>
     
-
+    </form>
+    </div>
+    </div>
 </body>
 </html>

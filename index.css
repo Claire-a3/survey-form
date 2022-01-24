@@ -33,7 +33,7 @@
 }
 #survey-form{
     width:700px;
-    height:100vh;
+    height:70vh;
     margin:auto;
     background-color:rgba(0,0,0,0.8);
     padding-top:50px;
@@ -103,9 +103,71 @@
     border:none;
     background-color:transparent;
     border-bottom:1px solid #ff7200;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 .numinp:focus{
     outline:none;    
     opacity:0.8;
 }
+.gender{
+    font-size:30px;
+    font-family:calibri;
+    color: purple;
+    border-radius:5px;
+    padding:2px;
+}
+#dropdown{
+    width:450px;
+    height:40px;
+    border: none;
+    font-size:25px;
+    font-family:calibri;
+    color:purple;
+    background-color:rgba(131, 127, 127,0.3);
+    border-radius:5px;
+    margin-bottom:10px;
+}
+#dropdown:focus{
+    outline:none;
+}
+.lite{
+    font-size:30px;
+    font-family:calibri;
+    color:purple;  
+    padding-left:10px;
+    padding-right:15px;
+}
+.codelang{
+    font-size:30px;
+    font-family:calibri;
+    color:purple;  
+}
+.lite2{
+    font-size:30px;
+    font-family:calibri;
+    color:purple;  
+    padding-left:10px;
+    padding-right:7px;
+}
+.txt{
+    width:570px;
+    height:250px;
+    background-color:transparent;
+    border-radius:5px;
+    border-color:#ff7200;
+    color:white;
+    font-size:20px;
+    margin-bottom:15px;
+}
+.txt:focus{
+    outline:none;
+}
+.btn{
+    width:150px;
+    height:40px;
+    font-size:20px;
+    background-color:purple;
+    border:none;
+    border-radius:10px;
+}
+

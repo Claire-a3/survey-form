@@ -15,37 +15,33 @@
     <form id="survey-form" action="form page">
     <div>
        <!-- <label id="name-label" for="name">Name:</label>  -->
-        <input type="text" class="nameinp" id="name" name= "user name" placeholder="Enter name" required>
+        <input type="text" class="nameinp" id="name" name= "user name" placeholder="Enter name" required><br>
         <!-- <label id="email-label" for="Email">Email:</label>    -->
-        <input type="email" class="mailinp" id="email" name= "user email" placeholder="Enter email" required>
+        <input type="email" class="mailinp" id="email" name= "user email" placeholder="Enter email" required><br>
         <!-- <label id="number-label" for="number">Number</label>  -->
-        <input type="number" class="numinp" id="number" name="user name" placeholder="Enter number" min="1" max="9">
+        <input type="number" class="numinp" id="number" name="user name" placeholder="Enter number" min="1" max="9"><br>
         <label class="gender" for="gender"> Gender</label>
       <select id="dropdown" name="dropdown">
          <option>Male</option>
          <option>Female</option>
-         
-      </select>
-    <div>
-        <label name="literacy">Literacy</label><br>
-        <label name="literate" for="literate">Literate</label>
+      </select><br>
+      <label name="literacy" class="lite">Literacy:</label>
+        <label name="literate" class="lite" for="literate">Literate</label>
         <input type="radio" name="literate">
-        <label name="literate" for="illiterate">Literate</label>
+        <label name="literate" class="lite" for="illiterate">Learning</label>
         <input type="radio" name="illiterate">
+        <label name="literate" class="lite" for="illiterate">Illiterate</label>
+        <input type="radio" name="illiterate">
+    <div>
+        <label class="codelang" name="codelang" for="codelang">Language:</label>
+        <label class="lite2" name="java" for="java">Java</label><input type="checkbox" value="java" name="Java">
+        <label class="lite2" name="python" for="python">Python</label><input type="checkbox" value="python" name="Python">
+        <label class="lite2" name="C#" for="C#">C#</label><input type="checkbox" value="C#" name="C#">
+        <label class="lite2" name="javascript" for="javascript">Javascript</label><input type="checkbox" value="javascript" name="Javascript">
+        <input class="txt" type="textarea" name="comment">
     </div>
     <div>
-        <label name="codelang" for="codelang">Coding Language:</label><br>
-        <label name="java" for="java">Java</label><input type="checkbox" value="java" name="Java"><br>
-        <label name="python" for="python">Python</label><input type="checkbox" value="python" name="Python"><br>
-        <label name="C#" for="C#">Python</label><input type="checkbox" value="C#" name="C#"><br>
-        <label name="javascript" for="javascript">Javascript</label><input type="checkbox" value="javascript" name="Javascript">
-
-    </div>
-    <div>
-        <input type="textarea" name="comment">
-    </div>
-    <div>
-        <input type="submit" id="submite">
+        <input class="btn" type="submit" id="submite">
     </div>
     
     </form>

@@ -167,7 +167,12 @@
     height:40px;
     font-size:20px;
     background-color:purple;
+    color:white;
     border:none;
     border-radius:10px;
+}
+.btn:hover{
+    background-color:white;
+    color:purple;
 }
 
